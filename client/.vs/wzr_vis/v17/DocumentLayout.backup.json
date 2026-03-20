@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\student\\Documents\\198381\\wirtualne_zespoly_robocze\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\197700\\wirtualne_zespoly_robocze\\client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD39C38-DE1E-49B2-B272-430161AAF2E2}|wzr_vis.vcxproj|C:\\Users\\student\\Desktop\\197700\\wirtualne_zespoly_robocze\\client\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1BD39C38-DE1E-49B2-B272-430161AAF2E2}|wzr_vis.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD39C38-DE1E-49B2-B272-430161AAF2E2}|wzr_vis.vcxproj|C:\\Users\\student\\Desktop\\197700\\wirtualne_zespoly_robocze\\client\\net.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1BD39C38-DE1E-49B2-B272-430161AAF2E2}|wzr_vis.vcxproj|solutionrelative:net.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "net.cpp",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\197700\\wirtualne_zespoly_robocze\\client\\net.cpp",
+              "RelativeDocumentMoniker": "net.cpp",
+              "ToolTip": "C:\\Users\\student\\Desktop\\197700\\wirtualne_zespoly_robocze\\client\\net.cpp",
+              "RelativeToolTip": "net.cpp",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-20T09:08:52.734Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\197700\\wirtualne_zespoly_robocze\\client\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\student\\Desktop\\197700\\wirtualne_zespoly_robocze\\client\\main.cpp*",
+              "RelativeToolTip": "main.cpp*",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAF0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-20T09:07:10.758Z",
+              "EditorCaption": ""
             }
           ]
         }

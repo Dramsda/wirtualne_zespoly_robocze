@@ -14,8 +14,10 @@
 #include "objects.h"
 #include "graphics.h"
 #include "net.h"
+
+#define ODPOWIEDZ 67
 using namespace std;
-int glosy = 0;
+
 FILE *f = fopen("wlog.txt", "w"); // plik do zapisu informacji testowych
 
 
@@ -28,8 +30,9 @@ float avg_cycle_time;                // sredni czas pomiedzy dwoma kolejnymi cyk
 long time_of_cycle, number_of_cyc;   // zmienne pomocnicze potrzebne do obliczania avg_cycle_time
 long time_start = clock();
 
-multicast_net *multi_reciv;          // wsk do obiektu zajmujacego sie odbiorem komunikatow
-multicast_net *multi_send;           //   -||-  wysylaniem komunikatow
+unicast_net *multi_reciv;          // wsk do obiektu zajmujacego sie odbiorem komunikatow
+unicast_net *multi_send;           //   -||-  wysylaniem komunikatow
+char server_ip[] = "172.20.14.185";
 
 HANDLE threadReciv;                  // uchwyt w¹tku odbioru komunikatów
 HWND main_window;                    // uchwyt do g³ównego okna programu 
@@ -43,6 +46,7 @@ int mouse_cursor_x = 0, mouse_cursor_y = 0;     // po³o¿enie kursora myszy
 extern ViewParams viewpar;           // ustawienia widoku zdefiniowane w grafice
 
 long duration_of_day = 600;         // czas trwania dnia w [s]
+unsigned int id_lidera = 0;
 
 struct Frame                                      // g³ówna struktura s³u¿¹ca do przesy³ania informacji
 {	
@@ -61,15 +65,15 @@ struct Frame                                      // g³ówna struktura s³u¿¹ca do
 // UWAGA!  Odbierane s¹ te¿ komunikaty z w³asnej aplikacji by porównaæ obraz ekstrapolowany do rzeczywistego.
 DWORD WINAPI ReceiveThreadFun(void *ptr)
 {
-	multicast_net *pmt_net = (multicast_net*)ptr;  // wskaŸnik do obiektu klasy multicast_net
+	unicast_net *pmt_net = (unicast_net*)ptr;  // wskaŸnik do obiektu klasy unicast_net
 	Frame frame;
-
+	unsigned long ip_nadawcy;
 	while (1)
 	{
-		int frame_size = pmt_net->reciv((char*)&frame, sizeof(Frame));   // oczekiwanie na nadejœcie ramki 
+		int frame_size = pmt_net->reciv((char*)&frame,&ip_nadawcy, sizeof(Frame) );   // oczekiwanie na nadejœcie ramki 
 		ObjectState state = frame.state;
 
-		//fprintf(f, "odebrano stan iID = %d, ID dla mojego obiektu = %d\n", frame.iID, my_car->iID);
+		printf("odebrano stan iID = %d, ID dla mojego obiektu = %d\n", frame.iID, my_car->iID);
 
 		// Lock the Critical section
 		EnterCriticalSection(&m_cs);               // wejœcie na œcie¿kê krytyczn¹ - by inne w¹tki (np. g³ówny) nie wspó³dzieli³ 
@@ -85,54 +89,26 @@ DWORD WINAPI ReceiveThreadFun(void *ptr)
 				other_cars[frame.iID] = ob;		
 				//fprintf(f, "zarejestrowano %d obcy obiekt o ID = %d\n", iLiczbaCudzychOb - 1, CudzeObiekty[iLiczbaCudzychOb]->iID);
 			}
-			if (frame.type == 67) {
-				my_car->odpowiedz = 'w';
-				printf("dostalem pytanie\n");
-			}
+			if (frame.type == 2) {
+				
+				printf("dostalem pytanie czy wpuscic %d\n", frame.id_pytajacego);
+				my_car->odpowiedz = 'w';   //stan czekajacy na klikniecie q
 
-			
+			}
+			if (frame.type == 4) {
+				printf("wpuscili mnie");
+				my_car->wpuszczony = true;
+			}
+			if (frame.type == 5) {
+				my_car->wpuszczony = false;
+				printf("NIE wpuscili mnie");
+				//exit(0);
+			}
 
 			other_cars[frame.iID]->ChangeState(state);   // aktualizacja stateu obiektu obcego 	
 			
 		}	
-		if (my_car->jestLiderem == true && my_car->odpowiedz == 'w') {
-			printf("zbieram glosy\n");
-
-			if (frame.type == 1) {
-				printf("dostalem glos\n");
-				glosy++;
-				printf("glosy %d\n", glosy);
-				if (glosy >= other_cars.size() / 2) {
-					printf("przeszlo\n");
-					Frame frame1;
-					frame1.iID = my_car->iID;
-					frame1.type = 4;
-					frame1.iID_receiver = frame.id_pytajacego;
-					multi_send->send((char*)(&frame1), sizeof(frame1));
-					my_car->odpowiedz = 't';
-				}
-				else {
-					printf("nie przeszlo\n");
-					Frame frame1;
-					frame1.iID = my_car->iID;
-					frame1.type = 5;
-					frame1.iID_receiver = frame.id_pytajacego;
-					multi_send->send((char*)(&frame1), sizeof(frame1));
-					my_car->odpowiedz = 'n';
-				}
-			}
-
-
-
-		}
-		if (frame.type == 4) {
-			my_car->wpuszczony = true;
-		}
-		if (frame.type == 5) {
-			my_car->wpuszczony = false;
-			//exit(0);
-		}
-
+		
 
 		//Release the Critical section
 		LeaveCriticalSection(&m_cs);               // wyjœcie ze œcie¿ki krytycznej
@@ -153,11 +129,11 @@ void InteractionInitialisation()
 	time_of_cycle = clock();             // pomiar aktualnego czasu
 
 	// obiekty sieciowe typu multicast (z podaniem adresu WZR oraz numeru portu)
-	//multi_reciv = new multicast_net("224.12.12.125", 10001);      // obiekt do odbioru ramek sieciowych
-	//multi_send = new multicast_net("224.12.12.125", 10001);       // obiekt do wysy³ania ramek
+	//multi_reciv = new unicast_net("224.12.12.125", 10001);      // obiekt do odbioru ramek sieciowych
+	//multi_send = new unicast_net("224.12.12.125", 10001);       // obiekt do wysy³ania ramek
 
-	multi_reciv = new multicast_net("224.12.12.127", 10001);      // obiekt do odbioru ramek sieciowych
-	multi_send = new multicast_net("224.12.12.127", 10001);       // obiekt do wysy³ania ramek
+	multi_reciv = new unicast_net(66);      // obiekt do odbioru ramek sieciowych
+	multi_send = new unicast_net(67);       // obiekt do wysy³ania ramek
 
 
 	// uruchomienie w¹tku obs³uguj¹cego odbiór komunikatów:
@@ -172,21 +148,16 @@ void InteractionInitialisation()
 
 	Sleep(1000);
 	printf("ile aut %d", other_cars.size());
-	if (other_cars.size() == 0) {
-		my_car->jestLiderem = true;
-		my_car->wpuszczony = true;
-		printf("jest liderem %d", my_car->iID);
-	}
-	else {
-		Frame frame;
-		frame.iID = my_car->iID;
-		frame.type = 67;
-		frame.id_pytajacego = my_car->iID;
-		printf("wysylam zapytanie\n");
-		multi_send->send((char*)(&frame), sizeof(frame));
-		//odpwiedxz
+	
+	Frame frame;
+	frame.iID = my_car->iID;
+	frame.type = 67;
+	frame.id_pytajacego = my_car->iID;
+	printf("wysylam zapytanie\n");
+	multi_send->send((char*)(&frame), server_ip, sizeof(frame));
+	//odpwiedxz
 
-	}
+	
 
 
 	printf("start interakcji\n");
@@ -219,7 +190,7 @@ void VirtualWorldCycle()
 	frame.state = my_car->State();               // state w³asnego obiektu 
 	frame.iID = my_car->iID;
 
-	multi_send->send((char*)&frame, sizeof(Frame));  // wys³anie komunikatu do pozosta³ych aplikacji
+	multi_send->send((char*)&frame, server_ip, sizeof(Frame));  // wys³anie komunikatu do pozosta³ych aplikacji
 }
 
 // *****************************************************************
@@ -572,22 +543,15 @@ LRESULT CALLBACK WndProc(HWND main_window, UINT message_code, WPARAM wParam, LPA
 		{
 			printf("klikam y\n");
 			if (my_car->odpowiedz = 'w') {
-				unsigned int id_lidera = my_car->iID;
-				for (auto& e : other_cars) {
-					MovableObject* other = e.second;
-					if (other->jestLiderem == true) {
-						id_lidera = other->iID;
-						printf("lider to %d\n",id_lidera);
-					}
-				}
-				//my_car->odpowiedz = '?';
+				
+				my_car->odpowiedz = '?';
 
 				Frame frame;
 				frame.iID = my_car->iID;
 				frame.iID_receiver = id_lidera;
 				frame.type = 1;
 				printf("wysylam 1 y\n");
-				multi_send->send((char*)(&frame), sizeof(Frame));
+				multi_send->send((char*)(&frame), server_ip, sizeof(Frame));
 			}
 
 			break;
@@ -595,21 +559,14 @@ LRESULT CALLBACK WndProc(HWND main_window, UINT message_code, WPARAM wParam, LPA
 		case 'N':
 		{
 			if (my_car->odpowiedz = 'w') {
-				unsigned int id_lidera = my_car->iID;
-				for (auto& e : other_cars) {
-					MovableObject* other = e.second;
-					if (other->jestLiderem == true) {
-						id_lidera = other->iID;
-					}
-				}
 				my_car->odpowiedz = '?';
 
 				Frame frame;
 				frame.iID = my_car->iID;
 				frame.iID_receiver = id_lidera;
 				frame.type = 0;
-
-				multi_send->send((char*)(&frame), sizeof(Frame));
+				printf("wysylam 1 n\n");
+				multi_send->send((char*)(&frame), server_ip, sizeof(Frame));
 			}
 			break;
 
