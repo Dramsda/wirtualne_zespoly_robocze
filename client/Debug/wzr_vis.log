@@ -1,114 +1,635 @@
-﻿cl : wiersz polecenia  warning D9035: Opcja "Gm" jest przestarzała i będzie usunięta w przyszłych wydaniach
+﻿C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\vector3D.cpp(7,11): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\vector3D.cpp(101,10): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\vector3D.cpp(101,35): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\vector3D.cpp(121,10): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\vector3D.cpp(134,13): warning C4244: "return": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\vector3D.cpp(164,14): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+cl : wiersz polecenia  warning D9035: Opcja "Gm" jest przestarzała i będzie usunięta w przyszłych wydaniach
   vector3D.cpp
   net.cpp
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\vector3D.cpp(7,11): warning C4305: "inicjowanie": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\vector3D.cpp(101,10): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\vector3D.cpp(101,35): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\vector3D.cpp(121,10): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\vector3D.cpp(134,13): warning C4244: "return": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\vector3D.cpp(164,14): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\net.cpp(47,16): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\net.cpp(189,32): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\net.cpp(47,16): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\net.cpp(189,32): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   objects.cpp
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(37,11): warning C4305: "=": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(40,19): warning C4305: "=": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(48,56): warning C4305: "argument": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(79,22): warning C4305: "inicjowanie": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(81,10): warning C4305: "inicjowanie": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(82,11): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(121,75): warning C4305: "=": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(122,77): warning C4305: "=": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(131,13): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(132,36): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(134,65): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(150,24): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(210,45): warning C4305: "argument": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(232,19): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(295,29): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(303,23): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(303,17): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(376,83): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(376,31): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(409,83): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(409,31): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(476,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(487,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(498,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(503,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(509,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\objects.cpp(522,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(37,11): warning C4305: "=": obcięcie z "double" do "float"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(40,19): warning C4305: "=": obcięcie z "double" do "float"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(48,56): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(79,22): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(81,10): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(82,11): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(121,75): warning C4305: "=": obcięcie z "double" do "float"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(122,77): warning C4305: "=": obcięcie z "double" do "float"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(131,13): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(132,36): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(134,65): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(150,24): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(210,45): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(232,19): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(295,29): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(303,23): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(303,17): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(376,83): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(376,31): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(409,83): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(409,31): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(476,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(487,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(498,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(503,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(509,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\objects.cpp(522,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   quaternion.cpp
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\quaternion.cpp(64,41): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\quaternion.cpp(96,15): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\quaternion.cpp(103,13): warning C4244: "return": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\quaternion.cpp(64,41): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\quaternion.cpp(96,15): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\quaternion.cpp(103,13): warning C4244: "return": konwersja z "double" do "float", możliwa utrata danych
   graphics.cpp
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(57,40): warning C4305: "argument": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(142,14): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(147,16): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(148,41): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(149,21): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(151,23): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(152,133): warning C4305: "argument": obcięcie z "double" do "GLclampf"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(152,86): warning C4244: "argument": konwersja z "double" do "GLclampf", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(152,45): warning C4244: "argument": konwersja z "double" do "GLclampf", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(153,28): warning C4838: konwersja z „double” do „GLfloat” wymaga konwersji zawężającej
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(153,28): warning C4244: "inicjowanie": konwersja z "double" do "GLfloat", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(153,56): warning C4838: konwersja z „double” do „GLfloat” wymaga konwersji zawężającej
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(153,56): warning C4244: "inicjowanie": konwersja z "double" do "GLfloat", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(153,90): warning C4838: konwersja z „double” do „GLfloat” wymaga konwersji zawężającej
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(153,90): warning C4244: "inicjowanie": konwersja z "double" do "GLfloat", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(156,56): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(156,30): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(156,16): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(163,33): warning C4838: konwersja z „double” do „GLfloat” wymaga konwersji zawężającej
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(163,33): warning C4244: "inicjowanie": konwersja z "double" do "GLfloat", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(163,63): warning C4838: konwersja z „double” do „GLfloat” wymaga konwersji zawężającej
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(163,63): warning C4244: "inicjowanie": konwersja z "double" do "GLfloat", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(163,93): warning C4838: konwersja z „double” do „GLfloat” wymaga konwersji zawężającej
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(163,93): warning C4244: "inicjowanie": konwersja z "double" do "GLfloat", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(352,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(393,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(394,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(396,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(397,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(403,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(404,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(407,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(410,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(415,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(416,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(418,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(419,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(430,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(431,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(432,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(433,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(57,40): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(142,14): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(147,16): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(148,41): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(149,21): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(151,23): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(152,133): warning C4305: "argument": obcięcie z "double" do "GLclampf"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(152,86): warning C4244: "argument": konwersja z "double" do "GLclampf", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(152,45): warning C4244: "argument": konwersja z "double" do "GLclampf", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(153,28): warning C4838: konwersja z „double” do „GLfloat” wymaga konwersji zawężającej
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(153,28): warning C4244: "inicjowanie": konwersja z "double" do "GLfloat", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(153,56): warning C4838: konwersja z „double” do „GLfloat” wymaga konwersji zawężającej
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(153,56): warning C4244: "inicjowanie": konwersja z "double" do "GLfloat", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(153,90): warning C4838: konwersja z „double” do „GLfloat” wymaga konwersji zawężającej
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(153,90): warning C4244: "inicjowanie": konwersja z "double" do "GLfloat", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(156,56): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(156,30): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(156,16): warning C4244: "argument": konwersja z "double" do "GLfloat", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(163,33): warning C4838: konwersja z „double” do „GLfloat” wymaga konwersji zawężającej
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(163,33): warning C4244: "inicjowanie": konwersja z "double" do "GLfloat", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(163,63): warning C4838: konwersja z „double” do „GLfloat” wymaga konwersji zawężającej
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(163,63): warning C4244: "inicjowanie": konwersja z "double" do "GLfloat", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(163,93): warning C4838: konwersja z „double” do „GLfloat” wymaga konwersji zawężającej
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(163,93): warning C4244: "inicjowanie": konwersja z "double" do "GLfloat", możliwa utrata danych
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(352,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(393,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(394,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(396,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(397,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(403,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(404,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(407,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(410,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(415,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(416,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(418,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(419,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(430,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(431,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(432,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(433,13): warning C4305: "argument": obcięcie z "double" do "GLfloat"
   main.cpp
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(19,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(105,15): warning C4018: ">=": niezgodność typu ze znakiem/bez znaku
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(209,39): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(211,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(248,2): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(249,2): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(435,50): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(498,60): warning C4305: "/=": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(505,58): warning C4305: "*=": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(531,32): warning C4305: "+=": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(536,32): warning C4305: "-=": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(557,20): warning C4305: "/=": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(565,20): warning C4305: "*=": obcięcie z "double" do "float"
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(622,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(623,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(624,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(628,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(629,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(630,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(636,6): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(103,9): warning C4005: "AF_IPX": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(457,9):
+      zobacz poprzednią definicję „AF_IPX”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(147,9): warning C4005: "AF_MAX": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(476,9):
+      zobacz poprzednią definicję „AF_MAX”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(187,9): warning C4005: "SO_DONTLINGER": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(399,9):
+      zobacz poprzednią definicję „SO_DONTLINGER”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(240,16): error C2011: "sockaddr'': "struct" wpisz ponownie definicję
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(482,8):
+      zobacz deklarację „sockaddr”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(442,5): error C2143: błąd składniowy: brakuje „}” przed „stała”
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(442,5): error C2059: błąd składniowy: „stała”
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(496,1): error C2143: błąd składniowy: brakuje „;” przed „}”
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(496,3): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(496,13): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(577,9): warning C4005: "IN_CLASSA": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(284,9):
+      zobacz poprzednią definicję „IN_CLASSA”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(583,9): warning C4005: "IN_CLASSB": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(290,9):
+      zobacz poprzednią definicję „IN_CLASSB”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(589,9): warning C4005: "IN_CLASSC": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(296,9):
+      zobacz poprzednią definicję „IN_CLASSC”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(600,9): warning C4005: "INADDR_ANY": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(301,9):
+      zobacz poprzednią definicję „INADDR_ANY”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(602,9): warning C4005: "INADDR_BROADCAST": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(303,9):
+      zobacz poprzednią definicję „INADDR_BROADCAST”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(638,16): error C2011: "sockaddr_in'': "struct" wpisz ponownie definicję
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(309,8):
+      zobacz deklarację „sockaddr_in”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(136,16): error C2011: "fd_set'': "struct" wpisz ponownie definicję
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(65,16):
+      zobacz deklarację „fd_set”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(158,9): warning C4005: "FD_SET": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(96,9):
+      zobacz poprzednią definicję „FD_SET”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(180,8): error C2011: "timeval'': "struct" wpisz ponownie definicję
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(108,8):
+      zobacz deklarację „timeval”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(236,9): error C2011: "hostent'': "struct" wpisz ponownie definicję
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(164,9):
+      zobacz deklarację „hostent”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(249,9): error C2011: "netent'': "struct" wpisz ponownie definicję
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(177,9):
+      zobacz deklarację „netent”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(256,9): error C2011: "servent'': "struct" wpisz ponownie definicję
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(184,9):
+      zobacz deklarację „servent”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(268,9): error C2011: "protoent'': "struct" wpisz ponownie definicję
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(196,9):
+      zobacz deklarację „protoent”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(364,16): error C2011: "WSAData'': "struct" wpisz ponownie definicję
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(319,16):
+      zobacz deklarację „WSAData”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(462,8): error C2011: "sockproto'': "struct" wpisz ponownie definicję
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(491,8):
+      zobacz deklarację „sockproto”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(504,9): error C2011: "linger'': "struct" wpisz ponownie definicję
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(528,9):
+      zobacz deklarację „linger”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(517,9): warning C4005: "SOMAXCONN": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(541,9):
+      zobacz poprzednią definicję „SOMAXCONN”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(551,9): warning C4005: "FD_READ": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(559,9):
+      zobacz poprzednią definicję „FD_READ”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(554,9): warning C4005: "FD_WRITE": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(560,9):
+      zobacz poprzednią definicję „FD_WRITE”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(557,9): warning C4005: "FD_OOB": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(561,9):
+      zobacz poprzednią definicję „FD_OOB”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(560,9): warning C4005: "FD_ACCEPT": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(562,9):
+      zobacz poprzednią definicję „FD_ACCEPT”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(563,9): warning C4005: "FD_CONNECT": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(563,9):
+      zobacz poprzednią definicję „FD_CONNECT”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(566,9): warning C4005: "FD_CLOSE": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(564,9):
+      zobacz poprzednią definicję „FD_CLOSE”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1631,1): error C2375: „accept”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(739,19):
+      zobacz deklarację „accept”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1653,1): error C2375: „bind”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(744,16):
+      zobacz deklarację „bind”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1674,1): error C2375: „closesocket”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(749,16):
+      zobacz deklarację „closesocket”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1691,1): error C2375: „connect”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(751,16):
+      zobacz deklarację „connect”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1712,1): error C2375: „ioctlsocket”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(756,16):
+      zobacz deklarację „ioctlsocket”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1735,1): error C2375: „getpeername”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(761,16):
+      zobacz deklarację „getpeername”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1756,1): error C2375: „getsockname”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(766,16):
+      zobacz deklarację „getsockname”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1777,1): error C2375: „getsockopt”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(771,16):
+      zobacz deklarację „getsockopt”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1802,1): error C2375: „htonl”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(778,19):
+      zobacz deklarację „htonl”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1819,1): error C2375: „htons”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(780,20):
+      zobacz deklarację „htons”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1837,1): error C2375: „inet_addr”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(782,26):
+      zobacz deklarację „inet_addr”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1855,1): error C2375: „inet_ntoa”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(784,23):
+      zobacz deklarację „inet_ntoa”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1955,1): error C2375: „listen”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(786,16):
+      zobacz deklarację „listen”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1974,1): error C2375: „ntohl”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(790,19):
+      zobacz deklarację „ntohl”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1991,1): error C2375: „ntohs”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(792,20):
+      zobacz deklarację „ntohs”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2008,1): error C2375: „recv”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(794,16):
+      zobacz deklarację „recv”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2031,1): error C2375: „recvfrom”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(800,16):
+      zobacz deklarację „recvfrom”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2058,1): error C2375: „select”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(808,16):
+      zobacz deklarację „select”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2083,1): error C2375: „send”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(815,16):
+      zobacz deklarację „send”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2106,1): error C2375: „sendto”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(821,16):
+      zobacz deklarację „sendto”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2133,1): error C2375: „setsockopt”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(829,16):
+      zobacz deklarację „setsockopt”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2158,1): error C2375: „shutdown”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(836,16):
+      zobacz deklarację „shutdown”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2178,1): error C2375: „socket”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(840,19):
+      zobacz deklarację „socket”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2203,1): error C2375: „gethostbyaddr”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(847,33):
+      zobacz deklarację „gethostbyaddr”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2225,1): error C2375: „gethostbyname”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(852,33):
+      zobacz deklarację „gethostbyname”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2242,1): error C2375: „gethostname”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(854,16):
+      zobacz deklarację „gethostname”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2282,1): error C2375: „getservbyport”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(858,33):
+      zobacz deklarację „getservbyport”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2301,1): error C2375: „getservbyname”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(862,33):
+      zobacz deklarację „getservbyname”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2320,1): error C2375: „getprotobynumber”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(866,34):
+      zobacz deklarację „getprotobynumber”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2337,1): error C2375: „getprotobyname”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(868,34):
+      zobacz deklarację „getprotobyname”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2357,1): error C2375: „WSAStartup”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(872,16):
+      zobacz deklarację „WSAStartup”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2377,1): error C2375: „WSACleanup”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(876,16):
+      zobacz deklarację „WSACleanup”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2394,1): error C2375: „WSASetLastError”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(878,17):
+      zobacz deklarację „WSASetLastError”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2411,1): error C2375: „WSAGetLastError”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(880,16):
+      zobacz deklarację „WSAGetLastError”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2432,1): error C2375: „WSAIsBlocking”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(882,17):
+      zobacz deklarację „WSAIsBlocking”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2450,1): error C2375: „WSAUnhookBlockingHook”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(884,16):
+      zobacz deklarację „WSAUnhookBlockingHook”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2468,1): error C2375: „WSASetBlockingHook”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(886,20):
+      zobacz deklarację „WSASetBlockingHook”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2486,1): error C2375: „WSACancelBlockingCall”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(888,16):
+      zobacz deklarację „WSACancelBlockingCall”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2504,1): error C2375: „WSAAsyncGetServByName”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(890,19):
+      zobacz deklarację „WSAAsyncGetServByName”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2532,1): error C2375: „WSAAsyncGetServByPort”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(898,19):
+      zobacz deklarację „WSAAsyncGetServByPort”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2560,1): error C2375: „WSAAsyncGetProtoByName”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(906,19):
+      zobacz deklarację „WSAAsyncGetProtoByName”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2586,1): error C2375: „WSAAsyncGetProtoByNumber”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(913,19):
+      zobacz deklarację „WSAAsyncGetProtoByNumber”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2612,1): error C2375: „WSAAsyncGetHostByName”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(920,19):
+      zobacz deklarację „WSAAsyncGetHostByName”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2638,1): error C2375: „WSAAsyncGetHostByAddr”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(927,19):
+      zobacz deklarację „WSAAsyncGetHostByAddr”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2668,1): error C2375: „WSACancelAsyncRequest”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(936,16):
+      zobacz deklarację „WSACancelAsyncRequest”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2686,1): error C2375: „WSAAsyncSelect”: zmiana definicji; różne inne wiązanie
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(938,16):
+      zobacz deklarację „WSAAsyncSelect”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(4318,1): error C2059: błąd składniowy: „}”
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(4318,1): error C2143: błąd składniowy: brakuje „;” przed „}”
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2ipdef.h(42,12): error C2143: błąd składniowy: brakuje „;” przed „{”
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2ipdef.h(42,12): error C2447: "{": brak nagłówka funkcji (stary styl formalnej listy?)
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2ipdef.h(135,9): warning C4005: "IP_TOS": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(349,9):
+      zobacz poprzednią definicję „IP_TOS”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2ipdef.h(136,9): warning C4005: "IP_TTL": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(348,9):
+      zobacz poprzednią definicję „IP_TTL”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2ipdef.h(137,9): warning C4005: "IP_MULTICAST_IF": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(343,9):
+      zobacz poprzednią definicję „IP_MULTICAST_IF”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2ipdef.h(138,9): warning C4005: "IP_MULTICAST_TTL": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(344,9):
+      zobacz poprzednią definicję „IP_MULTICAST_TTL”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2ipdef.h(139,9): warning C4005: "IP_MULTICAST_LOOP": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(345,9):
+      zobacz poprzednią definicję „IP_MULTICAST_LOOP”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2ipdef.h(140,9): warning C4005: "IP_ADD_MEMBERSHIP": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(346,9):
+      zobacz poprzednią definicję „IP_ADD_MEMBERSHIP”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2ipdef.h(141,9): warning C4005: "IP_DROP_MEMBERSHIP": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(347,9):
+      zobacz poprzednią definicję „IP_DROP_MEMBERSHIP”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2ipdef.h(142,9): warning C4005: "IP_DONTFRAGMENT": ponowna definicja makra
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(350,9):
+      zobacz poprzednią definicję „IP_DONTFRAGMENT”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(733,10): error C2061: błąd składniowy: identyfikator „MULTICAST_MODE_TYPE”
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(740,5): error C2065: "PIP_MSFILTER": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(740,18): error C2146: błąd składniowy: brakuje „;” przed identyfikatorem „Filter”
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(740,18): error C2065: "Filter": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(742,9): error C2065: "SourceCount": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(743,40): error C2065: "Filter": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(743,60): error C2065: "SourceList": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(748,12): error C2065: "IP_MSFILTER": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(748,12): error C2065: "SourceCount": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(749,5): error C2065: "Filter": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(749,15): error C2065: "PIP_MSFILTER": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(749,29): error C2146: błąd składniowy: brakuje „;” przed identyfikatorem „HeapAlloc”
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(750,9): error C2065: "Filter": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(755,5): error C2065: "Filter": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(756,5): error C2065: "Filter": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(757,5): error C2065: "Filter": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(757,26): error C2065: "FilterMode": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(758,5): error C2065: "Filter": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(758,27): error C2065: "SourceCount": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(759,9): error C2065: "SourceCount": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(760,9): error C2065: "Filter": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(760,9): error C2065: "SourceList": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(760,9): error C2065: "SourceCount": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(760,9): error C2660: "memcpy": funkcja nie przyjmuje 2 argumentów
+  (kompilowanie pliku źródłowego „main.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\vcruntime_string.h(43,15):
+      zobacz deklarację „memcpy”
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(760,9):
+      podczas próby dopasowania listy argumentów "()"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(764,47): error C2065: "Filter": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(767,35): error C2065: "Filter": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(779,11): error C2061: błąd składniowy: identyfikator „MULTICAST_MODE_TYPE”
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(786,5): error C2065: "PIP_MSFILTER": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(786,18): error C2146: błąd składniowy: brakuje „;” przed identyfikatorem „Filter”
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(786,18): error C2065: "Filter": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(788,10): error C2065: "SourceCount": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(789,40): error C2065: "Filter": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(789,60): error C2065: "SourceList": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(794,12): error C2065: "IP_MSFILTER": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(794,12): error C2065: "SourceCount": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(794,12): error C1003: Licznik błędów przekracza 100; zatrzymywanie kompilacji
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
   Generowanie kodu...
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\main.cpp(704,1): warning C4715: "WndProc”: niewszystkie ścieżki kodu zwracają wartość
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\graphics.cpp(74,1): warning C4715: "GraphicsInitialisation”: niewszystkie ścieżki kodu zwracają wartość
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\net.cpp(203,1): warning C4715: "unicast_net::send”: niewszystkie ścieżki kodu zwracają wartość
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\net.cpp(218,1): warning C4715: "unicast_net::reciv”: niewszystkie ścieżki kodu zwracają wartość
-C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\net.cpp(194,1): warning C4715: "unicast_net::send”: niewszystkie ścieżki kodu zwracają wartość
-main.obj : warning LNK4075: zignorowano opcję „/EDITANDCONTINUE” z powodu określenia opcji „/SAFESEH”
-  wzr_vis.vcxproj -> C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\Debug\wzr_vis.exe
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\graphics.cpp(74,1): warning C4715: "GraphicsInitialisation”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\net.cpp(194,1): warning C4715: "unicast_net::send”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\net.cpp(203,1): warning C4715: "unicast_net::send”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\student\Documents\198381\wirtualne_zespoly_robocze\client\net.cpp(218,1): warning C4715: "unicast_net::reciv”: niewszystkie ścieżki kodu zwracają wartość
